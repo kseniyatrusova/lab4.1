@@ -1,0 +1,8 @@
+def f():
+    date = input("")
+    date = date.split('.')
+    if (int(date[0])*int(date[1])) == int(date[2][2:4]):
+        print("Эта дата магическая!!")
+    else:
+        print("Эта дата не магическая")
+f()
